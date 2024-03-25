@@ -1,0 +1,8 @@
+8.14
+BDS维护离线数据库做一个三方查询
+DID合约这边需要做校验
+一个可能的做法：
+    Creat时候，emit event(hash)
+    change前一次的hash拼接后再做一个hash
+    校验（三方服务）
+

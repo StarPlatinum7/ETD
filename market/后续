@@ -1,0 +1,96 @@
+- **市场竞拍**：截止时间和
+
+竞拍的过程在前端，竞拍的截止时间，认可一个更高的价格
+
+在截止时间之前，保证一个更高的价格
+
+- **4907租赁**
+
+迁移：
+
+先mint到一个地址，我的个人账户
+
+
+
+> 4907修改
+
+租赁：
+
+租赁上架：上架order（链下），授权给代理钱包，交付租金，进行租赁的转移
+
+在代理钱包里添加功能
+
+方案：
+
+- 卖家
+
+  提交nft租赁订单（不上链），授权给proxywallet
+
+```
+struct leaseOrder {
+        address seller; // 卖家地址
+        address contractID; // NFT 合约地址
+        uint256 tokenID; // NFT 的 tokenId
+        uint256 price; // 单位时间的租金
+        bytes signature; // 签名
+        uint64 MaxRentPeriod; // 卖家设置的租期最大
+        uint64 MinRentPeriod; // 卖家设置的租期最小
+        uint256 nonce; // nonce每次提交订单nonce需要不重复
+    }
+```
+
+- 租客
+
+  调用租赁函数（租赁的订单和时间）
+
+  - 根据时间支付一定的租金，租家为token的使用者，匹配金额足够，并且租期匹配卖家要求   
+  - call到卖家的代理钱包的租赁函数进行租赁：
+    - 签名校验
+    - 调用4907进行租赁
+  - 查询租赁成功，租金转移给卖家
+
+- 其他接口
+  - 查询目前nft的使用者
+  
+  - 查询某个nft的租赁时间
+  
+    
+
+```
+leaseorder订单orderid：
+	bytes32 Hash = keccak256(
+            abi.encodePacked(
+                leaseOrder.seller,
+                leaseOrder.contractID,
+                leaseOrder.tokenID,
+                leaseOrder.price,
+                leaseOrder.MaxRentPeriod,
+                leaseOrder.nonce
+            )
+        );
+sig:
+	对orderid进行签名
+```
+
+### 租赁使用流程
+
+- 上架：卖方提供租赁订单
+
+  ```
+  struct LeaseOrder {
+          address seller; // 卖家地址
+          address contractID; // NFT 合约地址
+          uint256 tokenID; // NFT 的 tokenId
+          uint256 price; // 单位时间的租金
+          bytes signature; // 签名
+          uint64 MaxRentPeriod; // 卖家设置的租期最大
+          uint64 MinRentPeriod; // 卖家设置的租期最小
+          uint256 nonce; // nonce每次提交订单nonce需要不重复
+      }
+  
+  ```
+
+  > 参数说明
+  >
+  > - price：单位时间的租金（）
+  > - 租期的最大最小值：判定租期只有在这个范围内日才算有效

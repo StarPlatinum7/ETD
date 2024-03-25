@@ -1,0 +1,78 @@
+#CUG
+data_array = (
+    (25, "NFT CUT-01", "0x01820fd00598", "https://ipfs.io/ipfs/QmbpCQQzy9YVgkh66dHoypCB5iGUK1j8iNZ1YDPtB852LB?filename=NFT%20CUT-01.jpg",
+     "0x8ec87Bf4878B2875a1FB63Da5e5b3E96d8a076Bd"),
+    (25, "NFT CUT-02", "0x01820fd06a84", "https://ipfs.io/ipfs/QmTRjGwGrjHztuByorndAnYfaP5dLxDJ3m8dFTAW6LKcGN?filename=NFT%20CUT-02.jpg",
+     "0x8ec87Bf4878B2875a1FB63Da5e5b3E96d8a076Bd"),
+    (25, "NFT CUT-03", "0x01820fd15b7b", "https://ipfs.io/ipfs/QmeZ3pKr6hq7pUZzA9rTn6bsosZXJGfe7ndsXmB9o7yTiF?filename=NFT%20CUT-03.jpg",
+     "0x8ec87Bf4878B2875a1FB63Da5e5b3E96d8a076Bd"),
+    (25, "NFT CUT-04", "0x01820fd1cd27", "https://ipfs.io/ipfs/Qmcn6hbuM9Px7PXLdj4rXXwSG3DEUKfDJrmL3ExF8EzKDm?filename=NFT%20CUT-04.jpg",
+     "0x8ec87Bf4878B2875a1FB63Da5e5b3E96d8a076Bd"),
+    (25, "NFT CUT-05", "0x01820fd2504f", "https://ipfs.io/ipfs/QmSM9HrZr7odmyJ48AC47wxkXPMEr3uFtwX6maR8X8t17K?filename=NFT%20CUT-05.jpg",
+     "0x8ec87Bf4878B2875a1FB63Da5e5b3E96d8a076Bd"),
+    (25, "NFT CUT-06", "0x01820fd2b57e", "https://ipfs.io/ipfs/QmV4y74h6xYN8xoCYvgAg7cCdZ7RMsp7jvhZWP6HdCy6ck?filename=NFT%20CUT-06.jpg",
+     "0x8ec87Bf4878B2875a1FB63Da5e5b3E96d8a076Bd"),
+    (25, "NFT CUT-07", "0x01820fd391c6", "https://ipfs.io/ipfs/QmWZ9VcvyETAdtMt1pvqyBnr7Te5HjMUtUicLGnrJH4NLJ?filename=NFT%20CUT-07.jpg",
+     "0x8ec87Bf4878B2875a1FB63Da5e5b3E96d8a076Bd"),
+    (25, "NFT CUT-08", "0x01820fd3cc11", "https://ipfs.io/ipfs/QmWNvfYkff7gdT3yokRyGtz8huudysRRq43efYdpAHt2sW?filename=NFT%20CUT-08.jpg",
+     "0x8ec87Bf4878B2875a1FB63Da5e5b3E96d8a076Bd"),
+    (25, "NFT CUT-09", "0x01820fd41340", "https://ipfs.io/ipfs/QmSbSLTXqeaVpL452up4d3PbVCgQgyJMYxamh3UiiTQXWt?filename=NFT%20CUT-09.jpg",
+     "0x8ec87Bf4878B2875a1FB63Da5e5b3E96d8a076Bd"),
+    (25, "NFT CUT-10", "0x01820fd482a4", "https://ipfs.io/ipfs/QmahNempJGTjPndhjHd6ag7F4Li83cdi3tG2h5CKGYbusN?filename=NFT%20CUT-10.jpg",
+     "0x8ec87Bf4878B2875a1FB63Da5e5b3E96d8a076Bd"),
+    (25, "NFT CUT-11", "0x01820fd4bf79", "https://ipfs.io/ipfs/QmYpgU2RG5YcYd3foXMwoZkP2WXMkHCyRq4NomV8uzxqVy?filename=NFT%20CUT-11.jpg",
+     "0x8ec87Bf4878B2875a1FB63Da5e5b3E96d8a076Bd"),
+    (25, "NFT CUT-12", "0x01820fd4f7f0", "https://ipfs.io/ipfs/QmYYDR73H7faJQvJSzpq3WXyoQk2gijRja8LiyXz7EmBm3?filename=NFT%20CUT-12.jpg",
+     "0x8ec87Bf4878B2875a1FB63Da5e5b3E96d8a076Bd"),
+    (25, "NFT CUT-13", "0x01820fd52e57", "https://ipfs.io/ipfs/QmW5vmkZwiPBszTYJ22qih83mZo8adyJtWZTaaaFEPFeHP?filename=NFT%20CUT-13.jpg",
+     "0x8ec87Bf4878B2875a1FB63Da5e5b3E96d8a076Bd"),
+    (25, "NFT CUT-14", "0x01820fd5748e", "https://ipfs.io/ipfs/QmUu9c4kZVGe2y6Ya7UnQ3KkQ23Sw1FkKvGeupxocn9nQy?filename=NFT%20CUT-14.jpg",
+     "0x8ec87Bf4878B2875a1FB63Da5e5b3E96d8a076Bd"),
+    (25, "NFT CUT-15", "0x01820fd5aeca", "https://ipfs.io/ipfs/QmSbt5Rc43wwrQZXMiNfpwJWxfeyNwk7y1mwvETZcD2Zxj?filename=NFT%20CUT-15.jpg",
+     "0x8ec87Bf4878B2875a1FB63Da5e5b3E96d8a076Bd"),
+    (25, "NFT CUT-16", "0x01820fd63d47", "https://ipfs.io/ipfs/QmUgZotN2subkJHfr3dXuP2ui44XPY8Dg4pbPGKp1FCeKT?filename=NFT%20CUT-16.jpg",
+     "0x8ec87Bf4878B2875a1FB63Da5e5b3E96d8a076Bd"),
+    (25, "NFT CUT-17", "0x01820fd67c54", "https://ipfs.io/ipfs/QmU3AczJyu3QF88iRjNXzmBCZTY39aRGmb6eWueXwKrsWY?filename=NFT%20CUT-17.jpg",
+     "0x8ec87Bf4878B2875a1FB63Da5e5b3E96d8a076Bd"),
+    (25, "NFT CUT-18", "0x01820fd72004", "https://ipfs.io/ipfs/QmSUcFX52byc9Tk1vDrSQVnqbzE4bVzn94doGP5GykgQz6?filename=NFT%20CUT-18.jpg",
+     "0x8ec87Bf4878B2875a1FB63Da5e5b3E96d8a076Bd"),
+    (25, "NFT CUT-19", "0x01820fd749af", "https://ipfs.io/ipfs/QmRrUau4Hrbhq4pF2mx3MtYEYg37GkjQSQv6hZyUz5SAZR?filename=NFT%20CUT-19.jpg",
+     "0x8ec87Bf4878B2875a1FB63Da5e5b3E96d8a076Bd"),
+    (25, "NFT CUT-20", "0x01820fd7b6b9", "https://ipfs.io/ipfs/QmT2K17Aobf3wVDD6CniHLJ3kU6sb5p1xEPkjYAM8PVFSg?filename=NFT%20CUT-20.jpg",
+     "0x8ec87Bf4878B2875a1FB63Da5e5b3E96d8a076Bd"),
+    (25, "NFT CUT-21", "0x01820fd815c5", "https://ipfs.io/ipfs/QmYGFgPvFVXL8MHM89PS5vh6Jf5mUSrX8vqoaczLX6kwyf?filename=NFT%20CUT-21.jpg",
+     "0x8ec87Bf4878B2875a1FB63Da5e5b3E96d8a076Bd"),
+    (25, "NFT CUT-22", "0x01820fd88836", "https://ipfs.io/ipfs/QmaFhAUUkkyZRKWsqCmRZYPWBijrx9Q8tiJY4EBAfWvmb2?filename=NFT%20CUT-22.jpg",
+     "0x8ec87Bf4878B2875a1FB63Da5e5b3E96d8a076Bd"),
+    (25, "NFT CUT-23", "0x01820fd91c05", "https://ipfs.io/ipfs/Qmav59NbwtghHK7GWVsiwjHLgGVTyhrC39MexR4esvFytx?filename=NFT%20CUT-23.jpg",
+     "0x8ec87Bf4878B2875a1FB63Da5e5b3E96d8a076Bd"),
+    (25, "NFT CUT-24", "0x01820fd99480", "https://ipfs.io/ipfs/QmZuoYnsBvkPVyEzYK7g2ekW52rQoM7CBYWSFKkzZogCUZ?filename=NFT%20CUT-24.jpg",
+     "0x8ec87Bf4878B2875a1FB63Da5e5b3E96d8a076Bd"),
+    (25, "NFT CUT-25", "0x01820fd9ef91", "https://ipfs.io/ipfs/QmYG33jgTHQMncQQpocQxkHKbpXFXDidFg3xX3PKXcguvd?filename=NFT%20CUT-25.jpg",
+     "0x8ec87Bf4878B2875a1FB63Da5e5b3E96d8a076Bd"),
+)
+contract_add = ["0x333c16696706a29Af0f9E570a0e99DA6E9E5dc75",
+                "0x5dcfEA3FcAea63B8807D0a87A08269A6c007b090",
+                "0xD1939f453EA18a63e835C2b1168d5C6b42891387",
+                "0x81a8A700d92ee548662b0499f4747173036e3E1b",
+                "0x1207d73174C87240d370CBBE349fA1D44D0eB696",
+                "0xd64773E3380802eb2ec7289EaDb0ba9D8413fe57",
+                "0x04D829B300C709891FA06823F4b5A248677E2e22",
+                "0x9EEe4418dB8811e7311dfC1eF5c4eC41668eCca3",
+                "0x878127f7024f78E5c32D8e8556F523Fd1504a880",
+                "0x67fe3b4db8960fBE970d9FB2360FA8F78D744F88",
+                "0x6Cba97b1CbeE0C3bD10A1967695f0FFf1dD79c64",  #
+                "0x1FCBBdC1b6fD547D45a80344f883150aa059D7C7",
+                "0xec1Af23957A1A6a47A11518264DA5C844b2134DB",  # 300
+                "0x7B4F8208260a9d74d7EC63dE2818bABa23dC9A2c",  # 375
+                "0x3f111E31cc4610372fd98703f8BC82740EB74072",  # 25
+                "0x02FA9ddA881426fE2508aB98CACd5D2ad36F2986",  # 500
+                "0x1fE7732f5f51670a25aFD5aC5dBC4d5AaCb52E18",  # 1075
+                "0x25898A63253Fc46F5A7532F1B3306D956E501992",  # 25
+                "0x8E0FD394353Fe1BBAE3c56Cf8003bEd4a3284092",  # 25
+                "0xa1085a1Fde417492bc570A6fff82094AC1c4A2ad",  #
+                "0x312DB6184EB6329674b1b52405006Fcb2A8Ce900",  #
+                "0x968Bfb780d32bBe6cD2Ceab404e68919d5211643",
+                "0x98D9488cE1fd51b1a195D69fB301D11F61eD0392",
+                "0x80A3A184582cE08eCbAA46e395A0e261D34D58B0",
+                "0x2F1443c049072827Dc021E8b86332dc34364996E", ]

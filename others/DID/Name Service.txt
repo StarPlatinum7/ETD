@@ -1,0 +1,9 @@
+Name Service:
+	contract: DIDRegistry1.sol
+	test: testname1.js
+	content: basic function of resolution
+
+
+ENS
+	分级，不同的域用.分隔
+	top layer（.eth .test...s) 由register contract注册
